@@ -1,8 +1,9 @@
-import { User } from "next-auth";
+
 import Image from "next/image";
 import { Icons } from "./Icons";
-import { Avatar, AvatarFallback } from "./ui/avatar";
 import { AvatarProps } from "@radix-ui/react-avatar";
+import { User } from "@prisma/client";
+import { Avatar, AvatarFallback } from "./ui/avatar";
 
 
 interface UserAvatarProps extends AvatarProps {
