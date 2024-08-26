@@ -18,7 +18,7 @@ export default function SignIn() {
                 <UserAuthForm  />
 
                 <p className='px-8 text-center text-sm text-zinc-700'>
-                  New to Breaddit?{' '}
+                  New to Hreaddit?{' '}
                   <Link
                     href='/sign-up'
                     className='hover:text-zinc-800 text-sm underline underline-offset-4'>
